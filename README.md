@@ -1,12 +1,14 @@
-# React + Vite
+## Starter Code (React Module Project: FakeStoreApp)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains starter code for the React Module Project: FakeStoreApp. This code was written during the live lesson covering this project.
+Bear in mind that this is not a completed version of the project, it is merely starter code. Please refer to the project instructions to see what further portions need to be completed.
 
-Currently, two official plugins are available:
+For this project we're using the FakeStore API and making various requests to it. You can find documentation on the FakeStore API here: https://fakestoreapi.com/docs
+Additionally, we are using React Bootstrap. You can find documentation on React Bootstrap here: https://react-bootstrap.netlify.app/docs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# To run this project:
+1. Clone the repository.
+2. Open terminal.
+3. Run ``npm install`
+4. Run ``npm run dev``
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
