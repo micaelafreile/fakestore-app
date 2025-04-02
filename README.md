@@ -1,4 +1,4 @@
-## Starter Code (React Module Project: FakeStoreApp)
+# Starter Code (React Module Project: FakeStoreApp)
 
 This repository contains starter code for the React Module Project: FakeStoreApp. This code was written during the live lesson covering this project.
 Bear in mind that this is not a completed version of the project, it is merely starter code. Please refer to the project instructions to see what further portions need to be completed.
