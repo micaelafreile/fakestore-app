@@ -6,6 +6,8 @@ import Home from './components/Home'
 import ProductList from './components/ProductList'
 import AddProduct from './components/AddProduct'
 import ProductDetails from './components/ProductDetails'
+import Cart from './components/Cart'
+import EditProduct from './components/EditProduct'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
           <Route path="/products" element={<ProductList/>}/>
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/addproduct" element={<AddProduct/>}/>
+          <Route path="/products/cart" element={<Cart/>}/>
+          <Route path="/edit/:productId" element={<EditProduct/>}/>
         </Routes>
       </Router>
     </>

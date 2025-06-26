@@ -14,6 +14,8 @@ function NavigationBar() {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/products">Products</Nav.Link>
               <Nav.Link href="/addproduct">Add Product</Nav.Link>
+              <Nav.Link href ="/products/cart">Cart</Nav.Link>
+              <Nav.Link href ="/edit/:productId">Edit Products</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
