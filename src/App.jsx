@@ -8,6 +8,7 @@ import AddProduct from './components/AddProduct'
 import ProductDetails from './components/ProductDetails'
 import Cart from './components/Cart'
 import EditProduct from './components/EditProduct'
+import DeleteProducts from './components/DeleteProducts'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/addproduct" element={<AddProduct/>}/>
           <Route path="/products/cart" element={<Cart/>}/>
           <Route path="/edit/:productId" element={<EditProduct/>}/>
+          <Route path="/delete/:id" element={<DeleteProducts/>}/>
         </Routes>
       </Router>
     </>

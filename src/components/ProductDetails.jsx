@@ -49,6 +49,7 @@ function ProductDetails() {
                     Add to Cart
                 </Button> */}
             <Link className="custom-button" to={`/products/cart${product}`}>Add to cart</Link>
+                 <Button variant="danger" href={`/delete/${product.id}`}>Delete</Button>
             </Card>
     
         </Container>

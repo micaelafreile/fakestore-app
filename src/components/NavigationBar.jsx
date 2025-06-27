@@ -16,7 +16,7 @@ function NavigationBar() {
               <Nav.Link href="/addproduct">Add Product</Nav.Link>
               <Nav.Link href ="/products/cart">Cart</Nav.Link>
               <Nav.Link href ="/edit/:productId">Edit</Nav.Link>
-              <Nav.Link href="/delete/:productId">Delete Product</Nav.Link>
+              <Nav.Link href="/products/1">Delete Product</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>
