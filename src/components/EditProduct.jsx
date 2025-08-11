@@ -100,7 +100,7 @@ function EditProduct() {
           />
         </Form.Group>
 
-        <Button type="submit" variant="primary">Update Product 💾</Button>
+        <Button type="submit" variant="primary">Update Product </Button>
       </Form>
     </Container>
   );
